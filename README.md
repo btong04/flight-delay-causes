@@ -1,6 +1,7 @@
 # Installation
 ```
-conda create -n rapids-21.12 -c rapidsai -c nvidia -c conda-forge rapids=21.12 python=3.8 cudatoolkit=11.5 pyarrow jupyterlab shap=0.39 conda-pack pyspark category_encoders dask-ml seaborn holoviews sdv 
+conda create -n rapids-21.12 -c rapidsai -c nvidia -c conda-forge rapids=21.12 python=3.8 cudatoolkit=11.5 \
+pyarrow jupyterlab shap=0.39 conda-pack pyspark category_encoders dask-ml seaborn holoviews sdv 
 ```
 
 # Running Workloads
